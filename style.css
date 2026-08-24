@@ -91,9 +91,52 @@ body{
 }
 
 .parametro-senha__botao{
-
+background-color: var(--cor-de-fundo);
+color: var(borda);
+border: 2px solid var(--branco);
+padding: 24px;
+font-size: 24px;
+cursor: pointer;
 }
 .parametro-senha__texto{
+border-top: var(--borda);
+border-bottom: 2px solid var(--borda);
+padding: 24px;
+margin: 0px;
+font-size: 24px;
+}
+label{
+font-size: 20px;
+}
+.checkbox{
+width: 20px;
+height: 20px;
+cursor: pointer;
+}
+
+
+.barra{
+background-color: var(--fundo-senha);
+height: 30px;
+width: 100%;
+}
+
+.fraca{
+height: 30px;
+width: 25%;
+background-color: #e71832;
+position: relative;
+bottom: 30px;
+}
+
+.media{
+height: 30px;
+width: 50%;
+background-color: #faf408;
+position: relative;
+bottom: 30px;
+
+
 
 }
 
